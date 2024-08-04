@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Notice - Gautam Buddha Multiple Campus</title>
+ <link rel="stylesheet" href="css/Notice.css">
+ <link rel="stylesheet" href="css/global.css">
+	<link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <section class="header">
+    <nav>
+        <a class="text-white font-bold text-1xl" href="index.html"> <img class="w-20" src="image/logo.png" alt=""></a>
+
+        <div class="nav-links" id="navLinks">
+
+            <span class="icon" onclick="hidemenu()">&#10005;</span>
+            <ul>
+              <li><a class="uppercase" href="index.html">Home</a></li>
+              <li><a class="uppercase" href="Notice.html">Notice</a></li>
+              <li><a class="uppercase" href="Academic.html">Academic</a></li>
+              <li><a class="uppercase" href="Aboutus.html">About</a></li>
+              <li><a class="uppercase" href="Contact.html">Contact</a></li>
+          </ul>
+        </div> 
+        <span class="icon" onclick="showmenu()">&#9776;</span>
+    </nav>
+    <div class="mt-10">
+      <img src="image/notice.png" class="w-full object-cover" alt="">
+    </div>
+    <div class="body">
+      <div class="notice-board">
+          <div class="notice-title">Latest Notice</div>
+          <marquee class="notice-content" behavior="scroll" direction="left" scrollamount="5">
+            पुस्तक खरीद सम्बन्धी सूचना <span class="date">Shrawan 16, 2081</span> |
+              सूची दर्ता गर्ने सम्बन्धी सूचना । - <span class="date">Shrawan 19, 2081</span> |
+              तालिम संचालन सम्बन्धी सूचना। - <span class="date">Shrawan 20, 2081</span> |
+              स्याम्समा गुणात्मक तथा सूची व्यवस्थापन ताज - <span class="date">Shrawan 25, 2081</span> |
+              अन्य सूचना - <span class="date">April 20, 2024</span>
+          </marquee>
+      </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex flex-wrap -mx-4">
+        <!-- News Section -->
+        <div class="w-full md:w-2/3 px-4 mb-8 md:mb-0">
+            <h2 class="text-2xl font-bold mb-4">News</h2>
+            <div class="space-y-4">
+                <!-- News Item -->
+                 <div class="popup-design">
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold"> पुस्तक खरीद सम्बन्धी सूचना </h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                    <p>विश्वविद्यालय अनुदान आयोग नेपालले आयोजना गरेको सहयोगमा र क्याम्पसमा आयोजना भएको...</p>
+                </div>
+                <!-- Popup Modal -->
+                  <div class="popup-content hidden flex flex-col items-center p-4 rounded-lg shadow-lg bg-white">
+                    <img src="https://via.placeholder.com/300x200" alt="Popup Image" class="w-full h-auto mb-2 rounded">
+                    <p class="text-gray-600 text-sm">Additional information or details about the image or content can be included here.</p>
+                </div>
+              </div>
+                <!-- News Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">क्याम्पसमा सिमेस्टर प्रणालीको पुनर्ताजगी तालिम सम्पन्न</h3>
+                    <p class="text-gray-600">Shrawan 20, 2081</p>
+                    <p>विश्वविद्यालय अनुदान आयोग नेपालको वित्तीय सहयोगमा र क्याम्पसमा आयोजना गरिएको...</p>
+                </div>
+                <!-- News Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">क्याम्पसको आयोजनामा अन्तर्राष्ट्रिय वेबिनार सम्पन्न</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                    <p>सूचना प्रविधि र कृत्रिम बौद्धिकता विषयक अन्तर्राष्ट्रिय वेबिनार क्याम्पसले...</p>
+                </div>
+                <!-- News Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">क्याम्पसमा मनोवैज्ञानिक प्रर्वतक डा. योगी विकासानन्द संग साक्षात्कार</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                    <p>सूचना प्रविधि र कृत्रिम बौद्धिकता विषयक अन्तर्राष्ट्रिय वेबिनार क्याम्पसले...</p>
+                </div>
+            </div>
+        </div>
+        <!-- Notices Section -->
+        <div class="w-full md:w-1/3 px-4">
+            <h2 class="text-2xl font-bold mb-4">Notices</h2>
+            <div class="space-y-4">
+                <!-- Notice Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">कार्यसम्पादन मूल्यांकन फारम भर्ने सम्बन्धी सूचना।</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                </div>
+                <!-- Notice Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">शोधपत्रको pdf पेश गर्ने सम्बन्धमा</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                </div>
+                <!-- Notice Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">सूची दर्ता गर्ने सम्बन्धी सूचना।</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                </div>
+                <!-- Notice Item -->
+                <div class="bg-gray-200 p-10 rounded shadow">
+                    <h3 class="text-xl font-semibold">तालिम संचालन सम्बन्धी सूचना।</h3>
+                    <p class="text-gray-600">Shrawan 16, 2081</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer text-white py-10">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Contact Section -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4 text-white">CONTACT</h2>
+          <div class="h-1 w-8 bg-blue-400 mb-4"></div>
+          <p class="text-white">Buddhabhumi 2, Kapilvastu, Nepal</p>
+          <p class="text-white">Phone: +977-9867250507</p>
+          <p class="text-white">Email: <a href="mailto:sukunamc2048@gmail.com" class="underline">gbmcgorusinge@gmail.com</a></p>
+          <p class="text-white">Website: <a href="http://www.sukuna.edu.np" class="underline">www.gmbc.edu.np</a></p>
+        </div>
+        
+        <!-- Programs Section -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4 text-white">OUR PROGRAMS</h2>
+          <div class="h-1 w-8 bg-blue-400 mb-4 text-base"></div>
+          <ul>
+            <a href="Academic.html"> <li class="line"> > BBS</li></a>
+                    <a href="Academic.html">  <li class="line"> > B. Ed.</li> </a>
+                    <a href="Academic.html">   <li class="line"> > B.A</li> </a>
+          </ul>
+        </div>
+        
+        <!-- Features Section -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4 text-white">OUR FEATURES</h2>
+          <div class="h-1 w-8 bg-blue-400 mb-4"></div>
+          <ul>
+            <li class="line"> > Peaceful location.</li>
+            <li class="line"> > Limited no. of students.</li>
+            <li class="line"> > Sufficient Premises</li>
+            <li class="line"> > Sound environment for teaching & learning</li>
+            <li class="line"> > Run by experienced, qualified and dynamic teaching faculty.</li>
+            <li class="line"> > Non-profitable public institution</li>
+          </ul>
+        </div>
+        
+        <!-- Mission Section -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4 text-white">OUR MISSION</h2>
+          <div class="h-1 w-8 bg-blue-400 mb-4"></div>
+          <p class="text-base text-white text-justify ">The Mission of GBMC is “to impart quality, technical as well as practical education to produce advanced, research oriented competent manpower based on the people’s participation expanding physical facilities and optimal utilization of manpower management.”</p>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="mt-10 flex flex-col md:flex-row justify-between items-center border-t border-blue-700 pt-6">
+        <p class="text-white">&copy; Copyright 
+            GAUTAM BUDDHA MULTIPLE CAMPUS</p>
+            <a href="https://theantarikshya.com"> <p class="text-white">Developed By Antarikshya</p></a>
+      </div>
+    </div>
+  </footer>
+
+</section>
+<script src="javascript/main_script.js"></script>
+</body>
+</html>
